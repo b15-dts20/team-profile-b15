@@ -1,9 +1,135 @@
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  margin: 0;
-  font-family: "Arial";
-  background-color: rgba(15, 15, 15, 1);
+    background-color: #F3F6F7;
 }
+
+/* START - CSS Section 3 - Team Profile */
+
+.container-profile {
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading-profile {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin: 25px 0 10px 0;
+    text-align: center;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.heading-profile::after {
+    content: "";
+    width: 280px;
+    height: 2px;
+    background-color: #EC6E2F;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 24px 34px;
+    transition: all 0.3s;
+    animation: fade 0.6s 0.3s backwards;
+    flex-basis: 20%;
+}
+
+.card img {
+    width: 155px;
+    border-radius: 50%;
+    background-color: #3EAEE2;
+}
+
+.card h1 {
+    font-size: 23px;
+    color: rgb(31, 31, 31);
+    margin-top: 22px;
+    letter-spacing: 1px;
+}
+
+.card .job-title {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card .quote {
+    font-size: 12px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+
+.card ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card span {
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.fa-facebook,.fa-twitter,.fa-instagram {
+    color: #606568;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* END - CSS Section 3 - Team Profile */
