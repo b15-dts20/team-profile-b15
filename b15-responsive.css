@@ -1,7 +1,7 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
       
-  .content {
+  .content-wrapper {
     width: 50%;
   }
 }
@@ -9,12 +9,15 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
 /*CSS RESPONSIVE CONTENT-WRAPPER*/
-  .content {
+  .content-wrapper {
     width: 100%;
   }
-  .content-wrapper {
+  .section-2 {
     margin-bottom: 20%; 
     height: 750px; 
+  }
+  .heading-2 {  	
+    font-size: 24px;
   }
   .content-field{
     margin-bottom: 40px;
@@ -22,15 +25,17 @@
   .content-field ul{
     padding-left: 30px;
     line-height: 25px;
-    font-size: 14px;    
+    font-size: 14px;
+    margin-top: 2%;    
   }
   .contents-logo{
     font-size: 12px;
     width: 100%;
-    margin: 0;
+    margin: 10px 0px 10px 0px;
   }
   .content-logo{
     width: 25%;
   }
+
 /*PENUTUP CSS RESPONSIVE CONTENT-WRAPPER*/
 }
