@@ -322,3 +322,25 @@ a {
 }
 
 /*-------------------------PENUTUP CSS SECTION-3 PROFIL TIM--------------------------*/
+
+/*--------------------------------PEMBUKA CSS FOOTER---------------------------------*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.footer-image img {
+    margin: 20px auto;
+    width: 170px;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+/*--------------------------------PENUTUP CSS FOOTER---------------------------------*/
