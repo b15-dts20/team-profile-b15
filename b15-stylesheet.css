@@ -8,6 +8,39 @@
 body {
     background-color: #F3F6F7;
 }
+
+/*----------------------------------------MAIN CONTENT CSS---------------------------------------*/
+
+.top-wrapper-container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://i.ibb.co/8zBRQY3/Random2.png);
+    background-position:center;
+    height:700px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display:flex;
+    align-items:center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper h2 {
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+
 /*----------------------------------------HEADER CSS---------------------------------------*/
 header{
     height: 65px;
