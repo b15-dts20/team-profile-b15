@@ -78,6 +78,12 @@
   .ikon-menu{
     display: block;
   }
+  
+  footer {
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 27px;
+  }
 
 /*PENUTUP CSS RESPONSIVE SECTION-2*/
 }
