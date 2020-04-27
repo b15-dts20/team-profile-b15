@@ -71,8 +71,8 @@ header{
     transition: all 0.5;
 }
 .header-right a:hover{
-    background-color:grey;
-    opacity: 1.0;
+    background-color: #191919;
+    color: white;
 }
 .fa{
     margin-right: 5px;
