@@ -181,7 +181,7 @@ header{
 /*-------------------------------PENUTUP CSS SECTION-2-------------------------------*/
 
 
-/* START - CSS Section 3 - Team Profile */
+/*-------------------------PEMBUKA CSS SECTION-3 PROFIL TIM--------------------------*/
 
 .container-profile {
     margin: 0 30px;
@@ -193,8 +193,9 @@ a {
 
 .heading-profile {
     text-transform: uppercase;
+    font-size: 30px;
     letter-spacing: 6px;
-    margin: 25px 0 10px 0;
+    margin: 45px 0 10px 0;
     text-align: center;
     position: relative;
     font-family: 'Helvetica', cursive;
@@ -304,4 +305,4 @@ a {
     }
 }
 
-/* END - CSS Section 3 - Team Profile */
+/*-------------------------PENUTUP CSS SECTION-3 PROFIL TIM--------------------------*/
