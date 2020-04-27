@@ -4,10 +4,24 @@
   .content-wrapper {
     width: 50%;
   }
+      
+  .top-wrapper h1 {
+    font-size: 32px;
+  }    
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+      
+  .top-wrapper{
+    background-position:70%;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }    
+
+      
 /*CSS RESPONSIVE SECTION-2*/
   .content-wrapper {
     width: 100%;
