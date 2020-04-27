@@ -91,7 +91,7 @@ header{
     padding-right: 5%;
     color: #ffc529;
     text-align: center;
-    height: 700px;
+    width: 100%;
     font-family: "Helvetica";
     background-color: rgba(15, 15, 15, 1);
 }
