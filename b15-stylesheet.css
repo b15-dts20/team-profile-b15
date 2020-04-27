@@ -117,8 +117,13 @@ header{
 }
 
 .content-wrapper {
-    flex: auto;
+    display: flex;
+    align-items: center;
     width: 50%;
+}
+
+.text-context {
+    margin-bottom: 50px
 }
 
 .content-wrapper img{
