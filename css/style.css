@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right top, #804343, #7b374e, #6d305c, #53306a, #1f3474);
+}
+
+/*----------------------------------------MAIN CONTENT CSS---------------------------------------*/
+
+.top-wrapper-container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://i.ibb.co/8zBRQY3/Random2.png);
+    background-position:center;
+    height:700px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display:flex;
+    align-items:center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .top-wrapper h2 {
+    letter-spacing: 15px;
+    font-size: 20px;
+  }
+
+/*----------------------------------------HEADER CSS---------------------------------------*/
+header{
+    padding: 0 50px;
+    width: 100%;
+    background-color:#FFFFFF;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    font-weight: bold;
+}
+
+.header-left{
+    float: left;
+}
+.logo{
+    width: 124px;
+    margin-top: 20px;
+}
+.header-right{
+    float: right;
+    margin-right: -25px;
+}
+.header-right a{
+    color: black;
+    line-height: 65px;
+    font-weight: bold;
+    padding: 0 25px;
+    display: block;
+    float: left;
+    transition: all 0.5;
+}
+.header-right a:hover{
+    background-color:#191919;
+    color: white;
+}
+.fa{
+    margin-right: 5px;
+}
+.ikon-menu{
+    float: right;
+    color: black;
+    font-size: 25px;
+    padding: 20px 0;
+    display: none;
+}
+/*-------------------------------PEMBUKA CSS UNTUK SECTION-2-------------------------------*/
+.section-2 {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #191919;
+    text-align: center;
+    width: 100%;
+    font-family: "Helvetica";
+    background-color: white;
+}
+
+.content-heading {
+    padding-top: 10px;
+}
+
+.heading-2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.content-wrapper img{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 25px;
+    opacity: 1;
+}
+
+.content-field {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+  margin-right: 50px;
+}
+
+.text-context{
+  margin-bottom: 50px;
+}
+
+.content-field ul{
+    text-align: left;
+    padding-left: 100px;
+    line-height: 25px;
+    color: #191919;
+    margin-top: 10px;
+}
+
+.contents-logo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.content-logo{
+    flex: auto;
+    width: 25%; 
+    flex-direction: column;
+    cursor: pointer;
+    background: linear-gradient(to right top, #7a3e55, #744060, #6c436a, #604772, #514b79, #494b7c, #3f4b7f, #334b82, #304785, #2e4488, #2e3f8a, #2f3b8c);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+    margin-left: 15px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.content-logo:hover {
+    transform: scale(1.1);
+}
+
+
+.content-logo p{
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.contents-logo img {
+    width: 25%;
+    border-radius:0;
+}
+
+.heading-2 span {
+  background: linear-gradient(to right top, #804343, #7b374e, #6d305c, #53306a, #1f3474);
+  color: white;
+  border-radius: 15px
+}
+
+/*-------------------------------PENUTUP CSS SECTION-2-------------------------------*/
+
+
+/*-------------------------PEMBUKA CSS SECTION-3 PROFIL TIM--------------------------*/
+
+.container-profile {
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading-profile {
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin: 45px 0 10px 0;
+    text-align: center;
+    position: relative;
+    font-family: 'Helvetica', cursive;
+}
+
+.heading-profile::after {
+    content: "";
+    width: 280px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 24px 34px;
+    transition: all 0.3s;
+    animation: fade 0.6s 0.3s backwards;
+    flex-basis: 20%;
+}
+
+.card img {
+    width: 155px;
+    border-radius: 50%;
+    background-color: #ffc529;
+}
+
+.card h1 {
+    font-size: 23px;
+    color: rgb(31, 31, 31);
+    margin-top: 22px;
+    letter-spacing: 1px;
+}
+
+.card .job-title {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card .quote {
+    font-size: 12px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+
+.card ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card span {
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.fa-facebook,.fa-twitter,.fa-instagram {
+    color: #606568;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*-------------------------PENUTUP CSS SECTION-3 PROFIL TIM--------------------------*/
