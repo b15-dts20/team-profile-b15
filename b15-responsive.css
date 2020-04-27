@@ -37,6 +37,13 @@
     line-height: 15px;
     margin: 0 0 0 5px;
   }
+/*HEADER CSS RESPONSIVE*/
+  .header-right{
+    display: none;
+  }
+  .ikon-menu{
+    display: block;
+  }
 
 /*PENUTUP CSS RESPONSIVE SECTION-2*/
 }
