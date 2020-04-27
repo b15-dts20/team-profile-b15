@@ -46,6 +46,7 @@ header{
     padding: 0 50px;
     width: 100%;
     background-color:#FFFFFF;
+    font-weight: bold;
     position: fixed;
     top: 0;
     z-index: 10;
