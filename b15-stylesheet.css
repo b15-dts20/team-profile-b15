@@ -71,7 +71,7 @@ header{
 }
 .header-right a:hover{
     background-color:grey;
-    opacity: 0.1;
+    opacity: 1.0;
 }
 .fa{
     margin-right: 5px;
