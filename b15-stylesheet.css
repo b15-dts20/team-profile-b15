@@ -43,10 +43,9 @@ body {
 
 /*----------------------------------------HEADER CSS---------------------------------------*/
 header{
-    height: 65px;
+    padding: 0 50px;
     width: 100%;
-    background-color:whitesmoke;
-    opacity: 0.5;
+    background-color:#FFFFFF;
     position: fixed;
     top: 0;
     z-index: 10px;
